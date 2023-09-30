@@ -15,7 +15,7 @@ const app = require('express')();
 app.use(cookieParser());
 
 
-const allowedOrigins = ['http://localhost:3000', 'https://stunning-clafoutis-997a63.netlify.app/'];
+const allowedOrigins = ['http://localhost:3000', 'https://stunning-clafoutis-997a63.netlify.app'];
 
 app.use(
     cors({
