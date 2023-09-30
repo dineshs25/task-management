@@ -3,7 +3,6 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const jwt = require("jsonwebtoken");
 const User = require('./models/user');
-const Task = require('./models/tasks');
 const catchAsyncErrors = require('./catchAsyncErrors');
 const ErrorHandler = require('./ErrorHandler');
 const sendToken = require('./jwttoken');
